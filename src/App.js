@@ -1,24 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import EventRegistrationForm from "./components/EventRegistrationForm";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <div>
+      <h1 className="text-3xl font-extrabold text-center my-8 tracking-wider p-4 from-[#9021e3] via-[#379fef] to-[#5ffbf1] bg-gradient-to-r bg-clip-text text-transparent">Event Registration</h1>
+      <EventRegistrationForm />
+      </div>
   );
 }
 
